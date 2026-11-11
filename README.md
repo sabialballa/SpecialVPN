@@ -1,10 +1,14 @@
 # Special VPN
 
-کلاینت اندروید با تم مشکی و طلایی، فارسی راست‌به‌چپ و انگلیسی.
+کلاینت اندروید و ویندوز با تم مشکی و طلایی، فارسی راست‌به‌چپ و انگلیسی.
 
 **Xray · OpenVPN · Cisco-compatible · WireGuard · L2TP/IPsec (PSK)**
 
 [دانلود APK نسخهٔ ۱.۷.۰](https://github.com/sabialballa/SpecialVPN/releases/download/v1.7.0/SpecialVPN-1.7.0-universal-release.apk) · [آخرین ریلیز](https://github.com/sabialballa/SpecialVPN/releases/latest) · [گزارش مشکل](https://github.com/sabialballa/SpecialVPN/issues) · [تلگرام](https://t.me/iSpeedTopVPN)
+
+[دانلود نصب ویندوز ۱.۷.۰](https://github.com/sabialballa/SpecialVPN/releases/download/v1.7.0/SpecialVPN-Windows-1.7.0-x64-Setup.exe) · [سورس ویندوز](https://github.com/sabialballa/SpecialVPN/releases/download/v1.7.0/SpecialVPN-Windows-1.7.0-source.zip)
+
+ویندوز ۱۰/۱۱ نسخهٔ ۶۴ بیتی؛ نصب و اجرا با تأیید مدیر. برای ارتقای نسخه‌های ویندوز ۰.۲.۶۴ تا ۰.۲.۶۸، ریلیز سازگاری `windows-v1.7.0` نیز وجود دارد.
 
 ## امکانات
 
@@ -21,6 +25,15 @@
 اندروید **۷ به بالا**؛ فایل **universal-release.apk** را نصب کنید. برنامه سرور آماده ندارد؛ اشتراک یا کانفیگ خودتان را اضافه کنید. نسخهٔ Debug برای نصب عادی لازم نیست.
 
 نسخهٔ **۱.۷.۰** به‌عنوان آپدیت مهم منتشر شده است. اجبار فقط در نسخه‌هایی عمل می‌کند که از سیاست حداقل نسخه پشتیبانی دارند؛ نسخه‌های قدیمیِ فاقد این قابلیت را نمی‌توان از راه دور مجبور به ارتقا کرد. نصب با تأیید اندروید انجام می‌شود.
+
+## افزودن مستقیم اشتراک
+
+لینک یکسان برای اندروید و ویندوز؛ آدرس کامل HTTPS ساب را یک‌بار URL-encode کنید:
+
+- Xray: `specialvpn://install-sub?url=ENCODED_HTTPS_URL`
+- OpenVPN/Cisco/WireGuard/L2TP: `specialvpn://import-sub?url=ENCODED_HTTPS_URL`
+
+واردکردن ساب اتصال VPN را خودکار شروع نمی‌کند. مرورگر یا سیستم‌عامل ممکن است برای بازکردن برنامه تأیید بخواهد.
 
 ## سورس و مجوز
 
