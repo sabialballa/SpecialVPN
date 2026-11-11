@@ -1,32 +1,35 @@
 # Special VPN
 
-کلاینت اندروید با رابط مشکی و طلایی، پشتیبانی از فارسی و انگلیسی و اتصال‌های **Xray، OpenVPN، Cisco-compatible و WireGuard**.
+کلاینت اندروید با تم مشکی و طلایی، فارسی راست‌به‌چپ و انگلیسی.
 
-[دانلود آخرین نسخه](https://github.com/sabialballa/SpecialVPN/releases/latest) · [کانال تلگرام](https://t.me/iSpeedTopVPN) · [گزارش مشکل](https://github.com/sabialballa/SpecialVPN/issues)
+**Xray · OpenVPN · Cisco-compatible · WireGuard · L2TP/IPsec (PSK)**
+
+[دانلود APK نسخهٔ ۱.۷.۰](https://github.com/sabialballa/SpecialVPN/releases/download/v1.7.0/SpecialVPN-1.7.0-universal-release.apk) · [آخرین ریلیز](https://github.com/sabialballa/SpecialVPN/releases/latest) · [گزارش مشکل](https://github.com/sabialballa/SpecialVPN/issues) · [تلگرام](https://t.me/iSpeedTopVPN)
 
 ## امکانات
 
-- مدیریت اشتراک‌ها، ورود لینک، فایل، کلیپ‌بورد و QR
-- آپدیت خودکار اشتراک و تست Real Delay؛ تست مجدد پس از آپدیت موفق
-- نمایش IP خروجی و کشور، زمان اتصال و ترافیک واقعی
-- سهمیه و روزهای باقی‌مانده؛ نمودار مصرف روزانه برای ارائه‌دهنده‌های سازگار
-- اشتراک سازگار Eylan برای OpenVPN، Cisco و WireGuard؛ ورود دستی فایل و تم روشن و تیره، فارسی راست‌به‌چپ
-- بررسی نسخهٔ جدید از ریلیزهای همین مخزن
+- افزودن کانفیگ و اشتراک با لینک، فایل، کلیپ‌بورد و QR
+- آپدیت خودکار اشتراک، تست Real Delay و نمایش پرچم کشور خروجی
+- اتصال مستقیم با لمس کارت سرور و دکمهٔ گرد اتصال/قطع در تب سرورها
+- نمایش IP خروجی، مدت اتصال، ترافیک، سهمیه و نمودار مصرف ارائه‌دهنده‌های سازگار
+- دریافت پروفایل‌های OpenVPN، Cisco، WireGuard و L2TP از اشتراک سازگار
+- مسیریابی ایران برای Xray، OpenVPN و Cisco؛ انتخاب دامنه، IP یا هر دو و آپدیت قوانین
+- حالت روز و شب و بررسی آپدیت‌های معمولی یا اجباری برنامه
 
-## نصب
+## نصب و آپدیت
 
-از بخش Releases فایل **Universal Release APK** را دریافت کنید. حداقل نسخهٔ اندروید **۷** است. برنامه سرور همراه ندارد؛ اشتراک یا کانفیگ خودتان را اضافه کنید.
+اندروید **۷ به بالا**؛ فایل **universal-release.apk** را نصب کنید. برنامه سرور آماده ندارد؛ اشتراک یا کانفیگ خودتان را اضافه کنید. نسخهٔ Debug برای نصب عادی لازم نیست.
 
-برای انتقال از نسخه‌های قبل از **۱.۶.۴**، یک‌بار APK جدید را مستقیم نصب کنید؛ آدرس مخزن تغییر کرده است. پکیج و امضای انتشار ثابت‌اند.
+نسخهٔ **۱.۷.۰** به‌عنوان آپدیت مهم منتشر شده است. اجبار فقط در نسخه‌هایی عمل می‌کند که از سیاست حداقل نسخه پشتیبانی دارند؛ نسخه‌های قدیمیِ فاقد این قابلیت را نمی‌توان از راه دور مجبور به ارتقا کرد. نصب با تأیید اندروید انجام می‌شود.
 
-## توسعه و مجوز
+## سورس و مجوز
 
-پروژهٔ اندروید در `V2rayNG/` است. برای ساخت، سورس کاملِ پیوست ریلیز و [راهنمای ساخت](BUILD-FA.md) را ببینید.
+[سورس کاملِ متناظر ۱.۷.۰](https://github.com/sabialballa/SpecialVPN/releases/download/v1.7.0/SpecialVPN-1.7.0-source.zip) · [هش فایل‌ها](https://github.com/sabialballa/SpecialVPN/releases/download/v1.7.0/SHA256SUMS-1.7.0.txt) · [جزئیات ریلیز](https://github.com/sabialballa/SpecialVPN/releases/tag/v1.7.0)
 
-[تغییرات ۱.۶.۸](CHANGES-1.6.8.md) · [نتایج بررسی‌ها و محدودیت‌ها](VALIDATION-1.6.8.md) · [امضای Release](RELEASE-FA.md) · [حریم خصوصی](PRIVACY.md)
+برای ساخت APK نسخهٔ ۱.۷.۰، **ZIP سورس پیوست ریلیز** را بگیرید؛ آرشیو خودکار Source code گیت‌هاب جایگزین آن نیست. راهنمای ساخت، موتورهای اتصال و گزارش بررسی‌ها داخل همان فایل قرار دارند.
 
-فورک اصلاح‌شدهٔ [v2rayNG 2.3.14](https://github.com/2dust/v2rayNG/tree/2.3.14)، تحت مجوز [GPL-3.0](LICENSE). حقوق مؤلفان اصلی و [مجوزهای موتورهای اتصال](NATIVE-ENGINES.md) حفظ شده‌اند. این برنامه محصول رسمی Cisco نیست.
+فورک اصلاح‌شدهٔ [v2rayNG 2.3.14](https://github.com/2dust/v2rayNG/tree/2.3.14)، با حفظ حقوق مؤلفان اصلی و مجوز [GPL-3.0](LICENSE). مجوزهای وابستگی‌ها همراه سورس هستند. این برنامه محصول رسمی Cisco نیست.
 
 ---
 
-**Special VPN** is an Android client with Persian/English support, Xray, OpenVPN, embedded OpenConnect and WireGuard. Download the signed universal APK from [Releases](https://github.com/sabialballa/SpecialVPN/releases/latest). Android 7+; bring your own configuration. Modified v2rayNG fork, GPLv3. See the linked build and validation guides for details.
+**Special VPN** is an Android 7+ client with Persian/English support and Xray, OpenVPN, Cisco-compatible, WireGuard and L2TP/IPsec connections. Bring your own configuration. Download the signed Release APK above; use the attached full source ZIP to build version 1.7.0. Older clients without mandatory-update support cannot be forced to upgrade remotely.
